@@ -1,0 +1,21 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "config": {
+    "vendor-dir": "wp-content/mu-plugins",
+    "bin-dir": "bin"
+  },
+  "require": {
+    "wpackagist-plugin/regenerate-thumbnails": "*",
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/svg-support": "*",
+    "wpackagist-plugin/webp-express": "*",
+    "wpackagist-plugin/really-simple-ssl": "*",
+    "wpackagist-plugin/current-menu-item-for-custom-post-types": "*",
+    "roots/acorn": "*"
+  }
+}
