@@ -1,0 +1,17 @@
+//
+// Variables
+// --------------------------------------------------
+@mixin root-prop($prop: null, $value: null) {
+  @if ($prop and $value) {
+    #{$prop}: $value;
+  }
+}
+
+@function rem($size) {
+  @return $size / 16 * 1rem;
+}
+
+:root {
+  //Lazy load
+  @include root-prop(--background-lazyload, #fce300);
+}

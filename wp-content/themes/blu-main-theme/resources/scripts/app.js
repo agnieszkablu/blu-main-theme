@@ -1,4 +1,5 @@
 import {domReady} from '@roots/sage/client';
+import "./components/console";
 
 /**
  * app.main
