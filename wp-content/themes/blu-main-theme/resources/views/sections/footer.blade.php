@@ -1,3 +1,6 @@
 <footer class="content-info">
-   blu
+  <a class="brand" href="{{ home_url('/') }}">
+    blu
+    code
+  </a>
 </footer>

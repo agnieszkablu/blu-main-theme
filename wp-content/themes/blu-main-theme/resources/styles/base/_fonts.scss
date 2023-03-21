@@ -1,8 +1,7 @@
 //SpaceMono-Regular
 @font-face {
   font-family: "SpaceMono-Regular";
-  src: local('SpaceMono-Regular'),
-    url(~@fonts/SpaceMono-Regular.woff) format('woff');
+  src: local('SpaceMono-Regular'), url('../../fonts/SpaceMono/SpaceMono-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -11,8 +10,7 @@
 //SpaceMono-Bold
 @font-face {
   font-family: "SpaceMono-Bold";
-  src: local('SpaceMono-Bold'),
-    url(~@fonts/SpaceMono-Bold.woff) format('woff');
+  src: local('SpaceMono-Bold'), url('../../fonts/SpaceMono/SpaceMono-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
